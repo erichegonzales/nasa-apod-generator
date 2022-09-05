@@ -1,3 +1,4 @@
+import "./App.css"
 import { useState, useEffect } from "react";
 import CardContainer from "./components/CardContainer";
 
@@ -118,12 +119,14 @@ function App() {
   }, [cards]);
 
   return (
-    <div className="app">
+    <div className="body">
       <br />
-      <header className="glow">NASA Astronomy Pictures of the Day</header>
+      <header className="header" id="glow">
+        NASA Astronomy Pictures of the Day
+      </header>
       <br />
       <div className="date-input">
-        <h2 className="dateLabel">
+        <h2 className="date-label">
           Choose a date between 06/16/1995 and Today's Date:{" "}
         </h2>
         <input
@@ -133,6 +136,7 @@ function App() {
           max={today}
           onChange={handleDateInput}
         ></input>
+        <span>  </span>
         <button className="add-image" onClick={handleAddImage}>
           Add Image
         </button>

@@ -1,10 +1,9 @@
-import { FaHeart, FaHeartBroken, FaTrash } from "react-icons/fa";
+import { FaHeart, FaHeartBroken, FaTrashAlt } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
 const Card = ({ card }) => {
   const { date, title, url, explanation, likes, id } = card;
   const [likesCount, setLikesCount] = useState(likes);
-  // const [removeCard, setRemoveCard] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,21 +22,8 @@ const Card = ({ card }) => {
     fetchData().catch(console.error);
   }, [likesCount]);
 
-  //  useEffect(() => {
-  //    const fetchData = async () => {
-  //      const res = await fetch(`http://localhost:3001/images/${id}`, {
-  //        method: "DELETE",
-  //        headers: {
-  //          "Content-Type": "application/json",
-  //          Accept: "application/json",
-  //        },
-  //      });
-  //    };
-  //    fetchData().catch(console.error);
-  //  }, []);
-
   const removeCard = () => {
-     const fetchData = async () => {
+    const fetchData = async () => {
       const res = await fetch(`http://localhost:3001/images/${id}`, {
         method: "DELETE",
         headers: {
@@ -47,7 +33,7 @@ const Card = ({ card }) => {
       const req = res.json();
     };
     fetchData().catch(console.error);
-};
+  };
 
   return (
     <div className="card">
@@ -55,15 +41,21 @@ const Card = ({ card }) => {
       <h2>{title}</h2>
       <img src={url} alt={title} />
       <p>{explanation}</p>
-      <span>
-        <p onClick={() => setLikesCount(parseInt(likesCount - 1))}>
+      <span className="icons">
+        <p
+          className="fa-solid fa-heart-crack"
+          onClick={() => setLikesCount(parseInt(likesCount - 1))}
+        >
           <FaHeartBroken></FaHeartBroken> {likesCount}
         </p>
-        <p onClick={() => setLikesCount(parseInt(likesCount + 1))}>
+        <p
+          className="fa fa-heart"
+          onClick={() => setLikesCount(parseInt(likesCount + 1))}
+        >
           <FaHeart></FaHeart> {likesCount}
         </p>
-        <p onClick={() => removeCard()}>
-          <FaTrash></FaTrash>
+        <p className="fa-solid fa-trash-can" onClick={() => removeCard()}>
+          <FaTrashAlt></FaTrashAlt>
         </p>
       </span>
     </div>

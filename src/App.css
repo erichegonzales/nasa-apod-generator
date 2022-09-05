@@ -1,0 +1,141 @@
+.header {
+    font-size: 5pc;
+    color: black;
+    margin: 1pc;
+}
+
+.body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://codemyui.com/wp-content/uploads/2019/06/Shooting-Star-Background-in-Pure-CSS-1.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.date-input {
+    display: inline;
+}
+
+.or {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.space {
+    margin: 0 10px;
+}
+
+.date-label {
+    color: white;
+    font-size: 20px;
+}
+
+.add-image {
+    font-size: 20px;
+    width: 10%;
+    display: inline
+}
+
+.add-image:hover {
+    transform: scale(1.2);
+}
+
+input[type=date] {
+    width: 15rem;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.card-container {
+    display: center;
+    text-align: center;
+}
+
+p[class='fa fa-heart'] {
+    font-size: 2pc;
+    float: center;
+}
+
+p[class='fa-solid fa-trash-can'] {
+    font-size: 2pc;
+    float: right;
+}
+
+p[class='fa-solid fa-heart-crack'] {
+    font-size: 2pc;
+    float: left;
+}
+
+p[class='fa fa-heart']:hover {
+    color: red;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+p[class='fa-solid fa-trash-can']:hover {
+    color: #808080;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+p[class='fa-solid fa-heart-crack']:hover {
+    color: #4169e1;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    height: auto;
+    width: 70%;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    height: 70%;
+    width: 65%;
+    padding: 1rem;
+    border: #4b0082 solid 7px;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 10px 10px #6a5acd;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    border: 7px solid #6a5acd;
+    box-shadow: 10px 10px #4b0082;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+#glow {
+    font-size: 80px;
+    color: #282828;
+    text-align: center;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -moz-animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #191970, 0 0 40px #191970, 0 0 50px #191970;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6;
+    }
+}
