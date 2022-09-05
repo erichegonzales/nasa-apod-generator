@@ -136,12 +136,11 @@ function App() {
           max={today}
           onChange={handleDateInput}
         ></input>
-        <span>  </span>
+        <span className="space"></span>
         <button className="add-image" onClick={handleAddImage}>
           Add Image
         </button>
       </div>
-      <span className="space"></span>
       <p className="or"> or </p>
       <button className="random-image" onClick={handleRandomDate}>
         Find a random image

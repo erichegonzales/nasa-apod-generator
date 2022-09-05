@@ -41,23 +41,24 @@ const Card = ({ card }) => {
       <h2>{title}</h2>
       <img src={url} alt={title} />
       <p>{explanation}</p>
-      <span className="icons">
-        <p
+      <div className="icons">
+        <div className="fa-solid fa-trash-can" onClick={() => removeCard()}>
+          <FaTrashAlt></FaTrashAlt>
+        </div>
+        <div
           className="fa-solid fa-heart-crack"
           onClick={() => setLikesCount(parseInt(likesCount - 1))}
         >
-          <FaHeartBroken></FaHeartBroken> {likesCount}
-        </p>
-        <p
+          <FaHeartBroken></FaHeartBroken>
+        </div>
+        <div
           className="fa fa-heart"
           onClick={() => setLikesCount(parseInt(likesCount + 1))}
         >
-          <FaHeart></FaHeart> {likesCount}
-        </p>
-        <p className="fa-solid fa-trash-can" onClick={() => removeCard()}>
-          <FaTrashAlt></FaTrashAlt>
-        </p>
-      </span>
+          <FaHeart className="heart-icon"></FaHeart>
+        <h3 className="likes"><span> </span>{likesCount}</h3>
+        </div>
+      </div>
     </div>
   );
 };

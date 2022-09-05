@@ -14,9 +14,9 @@
     margin: 0;
 }
 
-.date-input {
+/* .date-input {
     display: inline;
-}
+} */
 
 .or {
     color: white;
@@ -33,6 +33,16 @@
     font-size: 20px;
 }
 
+.random-image {
+    font-size: 16px;
+    width: 12%;
+}
+
+.random-image:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+}
+
 .add-image {
     font-size: 20px;
     width: 10%;
@@ -40,7 +50,8 @@
 }
 
 .add-image:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
+    transition-duration: 500ms;
 }
 
 input[type=date] {
@@ -54,36 +65,51 @@ input[type=date] {
     text-align: center;
 }
 
-p[class='fa fa-heart'] {
-    font-size: 2pc;
-    float: center;
+.icons {
+    display: inline-block;
 }
 
-p[class='fa-solid fa-trash-can'] {
+/* .icons h2 {
+    display: inline;
+} */
+
+.likes {
+    display: inline;
+}
+
+div[class='fa fa-heart'] {
+    font-size: 2pc;
+    float: center;
+    box-sizing: min-content;
+}
+
+div[class='fa-solid fa-trash-can'] {
     font-size: 2pc;
     float: right;
 }
 
-p[class='fa-solid fa-heart-crack'] {
+div[class='fa-solid fa-heart-crack'] {
     font-size: 2pc;
     float: left;
 }
 
-p[class='fa fa-heart']:hover {
+/* div[class='fa fa-heart']:hover {
     color: red;
-    transform: scale(1.1);
+    transition-duration: 500ms;
+} */
+
+.heart-icon:hover {
+    color: red;
     transition-duration: 500ms;
 }
 
-p[class='fa-solid fa-trash-can']:hover {
-    color: #808080;
-    transform: scale(1.1);
+div[class='fa-solid fa-trash-can']:hover {
+    color: #696969;
     transition-duration: 500ms;
 }
 
-p[class='fa-solid fa-heart-crack']:hover {
+div[class='fa-solid fa-heart-crack']:hover {
     color: #4169e1;
-    transform: scale(1.1);
     transition-duration: 500ms;
 }
 
@@ -130,7 +156,7 @@ img {
     animation: glow 1.5s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #191970, 0 0 40px #191970, 0 0 50px #191970;
     }
@@ -138,4 +164,4 @@ img {
     to {
         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6;
     }
-}
+} */
