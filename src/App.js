@@ -1,5 +1,6 @@
 import "./App.css"
 import { useState, useEffect } from "react";
+import { useRef } from "react";
 import CardContainer from "./components/CardContainer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     day: "16",
     year: "1995",
   });
+  const footerRef = useRef(null);
 
   useEffect(() => {
     generateRandomDate();
@@ -62,6 +64,11 @@ function App() {
       }),
     });
     let req = await res.json();
+    footerRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
   };
 
   const handleDateInput = (e) => {
@@ -150,6 +157,7 @@ function App() {
       <div className="card-container">
         <CardContainer cards={cards} setCards={setCards} />
       </div>
+      <footer className="footer" ref={footerRef}></footer>
     </div>
   );
 }

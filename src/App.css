@@ -8,8 +8,8 @@
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url('https://codemyui.com/wp-content/uploads/2019/06/Shooting-Star-Background-in-Pure-CSS-1.gif');
-    background-size: cover;
-    height: 100vh;
+    background-size: contain;
+    overflow: scroll;
     padding: 0;
     margin: 0;
 }
@@ -63,6 +63,13 @@ input[type=date] {
 .card-container {
     display: center;
     text-align: center;
+    justify-content: center;
+    float: center;
+}
+
+.explanation {
+    width: 90%;
+    margin-left: 50px;
 }
 
 .icons {
@@ -130,7 +137,7 @@ img {
     background-color: white;
     text-align: center;
     height: 70%;
-    width: 65%;
+    width: 60%;
     padding: 1rem;
     border: #4b0082 solid 7px;
     border-radius: 15px 15px 15px 15px;
@@ -145,6 +152,10 @@ img {
     box-shadow: 10px 10px #4b0082;
     cursor: pointer;
     transition-duration: 1s;
+}
+
+.footer {
+    height: 1in;
 }
 
 #glow {

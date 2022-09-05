@@ -5,7 +5,7 @@
       "title": "Aurora Over White Dome Geyser",
       "url": "https://apod.nasa.gov/apod/image/1610/geyseraurora_howell_960.jpg",
       "explanation": "Sometimes both heaven and Earth erupt. Colorful aurorae erupted unexpectedly a few years ago, with green aurora appearing near the horizon and brilliant bands of red aurora blooming high overhead.  A bright Moon lit the foreground of this picturesque scene, while familiar stars could be seen far in the distance.  With planning, the careful astrophotographer shot this image mosaic in the field of White Dome Geyser in Yellowstone National Park in the western USA. Sure enough, just after midnight, White Dome erupted -- spraying a stream of water and vapor many meters into the air. Geyser water is heated to steam by scalding magma several kilometers below, and rises through rock cracks to the surface. About half of all known geysers occur in Yellowstone National Park. Although the geomagnetic storm that created these aurorae has since subsided, eruptions of White Dome Geyser continue about every 30 minutes.   Free Download: APOD 2017 Calendar: NASA Images",
-      "likes": 9,
+      "likes": 10,
       "id": 2
     },
     {
@@ -15,6 +15,62 @@
       "explanation": "Some 60 million light-years away in the southerly constellation Corvus, two large galaxies are colliding. Stars in the two galaxies, cataloged as NGC 4038 and NGC 4039, very rarely collide in the course of the ponderous cataclysm that lasts for hundreds of millions of years. But the galaxies' large clouds of molecular gas and dust often do, triggering furious episodes of star formationi near the center of the cosmic wreckage. Spanning over 500 thousand light-years, this stunning view also reveals new star clusters and matter flung far from the scene of the accident by gravitational tidal forces. The remarkably sharp ground-based image includes narrowband data that highlights the characteristic red glow of atomic hydrogen gas in star-forming regions. The suggestive overall visual appearance of the extended arcing structures gives the galaxy pair its popular name - The Antennae.",
       "likes": 6,
       "id": 3
+    },
+    {
+      "date": "2016-03-16",
+      "title": "A Phoenix Aurora over Iceland",
+      "url": "https://apod.nasa.gov/apod/image/1603/PhoenixAurora_Helgason_960.jpg",
+      "explanation": "All of the other aurora watchers had gone home. By 3:30 am in Iceland, on a quiet night last September, much of that night's auroras had died down. Suddenly though, a new burst of particles streamed down from space, lighting up the Earth's atmosphere once again. This time, unexpectedly, pareidoliacally, they created an amazing shape reminiscent of a giant phoenix. With camera equipment at the ready, two quick sky images were taken, followed immediately by a third of the land.  The mountain in the background is Helgafell, while the small foreground river is called Kald�, both located about 30 kilometers north of Iceland's capital Reykjavik. Seasoned skywatchers will note that just above the mountain, toward the left, is the constellation of Orion, while the Pleiades star cluster is also visible just above the frame center.  The new aurora lasted only a minute and would be gone forever -- possibly dismissed as an embellished aberration -- were it not captured in the featured, digitally-composed, image mosaic.",
+      "likes": "0",
+      "id": 4
+    },
+    {
+      "date": "2000-07-04",
+      "title": "Comet LINEAR Approaches",
+      "url": "https://apod.nasa.gov/apod/image/0007/linear_milan.gif",
+      "explanation": "Just possibly, a new comet may become bright enough to see without binoculars later this month.  Comet C/1999 S4 LINEAR is rapidly approaching both the Earth and the Sun from the outer Solar System, and should be at its brightest around 2000 July 25 in the early evening sky of northern observers.  The comet was discovered by chance by project LINEAR last September.  The above time-lapse sequence of Comet LINEAR was taken on 2000 July 2 from Arizona and shows the comet's movement over only 19 minutes. Although Comet LINEAR's positions will be known quite accurately, the comet's future brightness and tail length can only be guessed, and it is quite possible that neither will become very impressive.",
+      "likes": "0",
+      "id": 5
+    },
+    {
+      "date": "1999-02-14",
+      "title": "Dark Sky, Bright Sun",
+      "url": "https://apod.nasa.gov/apod/image/9709/sunview_sts82.jpg",
+      "explanation": "In low Earth orbit there is not enough atmosphere to diffuse and scatter sunlight, so shadows are black and the sky is dark - even when the Sun shines.  The harsh lighting produced this dramatic effect as mission specialist Gregory Harbaugh photographed colleague Joseph Tanner during their second spacewalk to service the Hubble Space Telescope in February 1997. The aft section of the Space Shuttle Discovery is visible in the background with the Sun hanging over a delicate crescent of the Earth's limb. A checklist is attached to Tanner's left arm, and Harbaugh's reflection is just visible in Tanner's visor.",
+      "likes": "0",
+      "id": 6
+    },
+    {
+      "date": "1997-09-06",
+      "title": "Isaac Newton Explains the Solar System",
+      "url": "https://apod.nasa.gov/apod/image/IsaacNewton.gif",
+      "explanation": "Sir Isaac Newton changed the world. Born in 1643, Newton was only an above-average student. But he went home from Cambridge one summer in 1665, thought a lot about the physical nature of the world, and came back two years later with a revolutionary understanding of mathematics, gravitation, and optics. A Professor of his, upon understanding what Newton had done, resigned his own position at Cambridge so Newton could have it. Newton's calculus provided a new mathematical framework for the rapid solution of whole classes of physical problems.  Newton's law of gravitation explained in one simple formula how apples fall and planets move.  Newton's insights proved to be so overwhelmingly powerful he was the first scientist ever knighted.",
+      "likes": "0",
+      "id": 7
+    },
+    {
+      "date": "2002-03-07",
+      "title": "Comet Ikeya-Zhang Brightens",
+      "url": "https://apod.nasa.gov/apod/image/0203/ikzhMarz3_rhemann.jpg",
+      "explanation": "In the last week, Comet Ikeya-Zhang has become bright enough to be just visible to the unaided eye. Based on its present activity, observers are optimistic that Ikeya-Zhang will become substantially brighter. This composite color image from March 3rd, captured with a wide-field telescope, shows this active comet's bright, condensed coma and a delightful array of subtle structures in its developing tail. The bluish tail stretches for 5 degrees or so against a background of stars in the constellation Pisces. In the coming days look for the comet hanging low in the western evening sky (below a bright yellowish Mars), eventually becoming difficult to see in the March twilight. But after April begins, Ikeya-Zhang will become a predawn object climbing higher into the morning sky as the month progresses. Cataloged as comet C/2002 C1, improved orbit determinations now make it seem very likely that Comet Ikeya-Zhang has been around here before. Refined calculations indicate this comet's last trip through the inner Solar System was 341 years ago, in 1661, when it was recorded as a bright comet.",
+      "likes": "0",
+      "id": 8
+    },
+    {
+      "date": "2000-04-11",
+      "title": "The Local Interstellar Cloud",
+      "url": "https://apod.nasa.gov/apod/image/0004/localcloud_frisch.jpg",
+      "explanation": "The stars are not alone.  In the disk of our Milky Way Galaxy about 10 percent of visible matter is in the form of gas, called the interstellar medium (ISM).  The ISM is not uniform, and shows patchiness even near our Sun.  It can be quite difficult to detect the local ISM because it is so tenuous and emits so little light.  This mostly hydrogen gas, however, absorbs some very specific colors that can be detected in the light of the nearest stars.  A working map of the local ISM within 10 light-years based on recent observations is shown above.  These observations show that our Sun is moving through a Local Interstellar Cloud as this cloud flows outwards from the Scorpius-Centaurus Association star forming region.  Our Sun may exit the Local Interstellar Cloud during the next 10,000 years.  Much remains unknown about the local ISM, including details of its distribution, its origin, and how it affects the Sun and the Earth.",
+      "likes": "0",
+      "id": 9
+    },
+    {
+      "date": "2004-09-14",
+      "title": "Genesis Mission's Hard Impact",
+      "url": "https://apod.nasa.gov/apod/image/0409/landing1_genesis.jpg",
+      "explanation": "A flying saucer from outer space crash-landed in the Utah desert last week after being tracked by radar and chased by helicopters.  No space aliens were involved, however.  The saucer, pictured above, was the Genesis sample return capsule, part of a human-made robot Genesis spaceship launched three years ago by NASA itself to study the Sun.  The unexpectedly hard landing at over 300 kilometers per hour occurred because the parachutes did not open as planned.  The Genesis mission had been orbiting the Sun collecting solar wind particles that are usually deflected away by Earth's magnetic field.  A big question remains -- are the returned samples in good enough condition to recover information about the real composition of the Sun?  Genesis team scientists and engineers are working hard to find out.",
+      "likes": "0",
+      "id": 10
     }
   ]
 }

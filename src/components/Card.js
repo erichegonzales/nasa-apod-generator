@@ -40,7 +40,8 @@ const Card = ({ card }) => {
       <h1>{date}</h1>
       <h2>{title}</h2>
       <img src={url} alt={title} />
-      <p>{explanation}</p>
+      <br/>
+      <p className="explanation">{explanation}</p>
       <div className="icons">
         <div className="fa-solid fa-trash-can" onClick={() => removeCard()}>
           <FaTrashAlt></FaTrashAlt>
