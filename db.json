@@ -1,3 +1,20 @@
 {
-  "images": []
+  "images": [
+    {
+      "date": "2016-10-02",
+      "title": "Aurora Over White Dome Geyser",
+      "url": "https://apod.nasa.gov/apod/image/1610/geyseraurora_howell_960.jpg",
+      "explanation": "Sometimes both heaven and Earth erupt. Colorful aurorae erupted unexpectedly a few years ago, with green aurora appearing near the horizon and brilliant bands of red aurora blooming high overhead.  A bright Moon lit the foreground of this picturesque scene, while familiar stars could be seen far in the distance.  With planning, the careful astrophotographer shot this image mosaic in the field of White Dome Geyser in Yellowstone National Park in the western USA. Sure enough, just after midnight, White Dome erupted -- spraying a stream of water and vapor many meters into the air. Geyser water is heated to steam by scalding magma several kilometers below, and rises through rock cracks to the surface. About half of all known geysers occur in Yellowstone National Park. Although the geomagnetic storm that created these aurorae has since subsided, eruptions of White Dome Geyser continue about every 30 minutes.   Free Download: APOD 2017 Calendar: NASA Images",
+      "likes": "0",
+      "id": 2
+    },
+    {
+      "date": "2021-03-27",
+      "title": "Exploring the Antennae",
+      "url": "https://apod.nasa.gov/apod/image/2103/C60-61_PS2_CROP_FULL1024.jpg",
+      "explanation": "Some 60 million light-years away in the southerly constellation Corvus, two large galaxies are colliding. Stars in the two galaxies, cataloged as NGC 4038 and NGC 4039, very rarely collide in the course of the ponderous cataclysm that lasts for hundreds of millions of years. But the galaxies' large clouds of molecular gas and dust often do, triggering furious episodes of star formationi near the center of the cosmic wreckage. Spanning over 500 thousand light-years, this stunning view also reveals new star clusters and matter flung far from the scene of the accident by gravitational tidal forces. The remarkably sharp ground-based image includes narrowband data that highlights the characteristic red glow of atomic hydrogen gas in star-forming regions. The suggestive overall visual appearance of the extended arcing structures gives the galaxy pair its popular name - The Antennae.",
+      "likes": "0",
+      "id": 3
+    }
+  ]
 }

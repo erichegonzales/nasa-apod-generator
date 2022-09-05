@@ -5,6 +5,7 @@ function App() {
   let today;
   let currYear;
   let key = "5x8jye659ANN9AhcRH6efnk0lMastohE8JxFLFV1";
+  const [cards, setCards] = useState([]);
   const [imageDate, setImageDate] = useState({
     month: "06",
     day: "16",
@@ -13,7 +14,7 @@ function App() {
 
   useEffect(() => {
     generateRandomDate();
-  }, []);
+  }, [cards]);
 
   const dateToday = () => {
     let date = new Date();
@@ -38,12 +39,6 @@ function App() {
     let res = await fetch(
       `https://api.nasa.gov/planetary/apod?date=${imageDate.year}-${imageDate.month}-${imageDate.day}&api_key=${key}`
     );
-    let req = await res.json();
-    return req;
-  };
-
-  const fetchData = async () => {
-    let res = await fetch('http://localhost:3001/images');
     let req = await res.json();
     return req;
   };
@@ -112,6 +107,16 @@ function App() {
     postImage();
   };
 
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch("http://localhost:3001/images");
+      const req = await res.json();
+      setCards(req);
+    };
+
+    fetchData().catch(console.error);
+  }, [cards]);
+
   return (
     <div className="app">
       <br />
@@ -140,7 +145,7 @@ function App() {
       <br />
       <span className="space"></span>
       <div className="card-container">
-        <CardContainer />
+        <CardContainer cards={cards} setCards={setCards} />
       </div>
     </div>
   );

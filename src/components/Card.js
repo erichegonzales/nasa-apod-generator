@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Card = ({ card }) => {
   const { date, title, url, explanation, likes, id } = card;
   const [likesCount, setLikesCount] = useState(likes);
-  const [removeCard, setRemoveCard] = useState(false);
+  // const [removeCard, setRemoveCard] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -18,22 +18,36 @@ const Card = ({ card }) => {
           likes: likesCount,
         }),
       });
+      const req = res.json();
     };
     fetchData().catch(console.error);
   }, [likesCount]);
 
-//    useEffect(() => {
-//      const fetchData = async () => {
-//        const res = await fetch(`http://localhost:3001/images/${id}`, {
-//          method: "DELETE",
-//          headers: {
-//            "Content-Type": "application/json",
-//            Accept: "application/json",
-//          },
-//        });
-//      };
-//      fetchData().catch(console.error);
-//    }, [removeCard]);
+  //  useEffect(() => {
+  //    const fetchData = async () => {
+  //      const res = await fetch(`http://localhost:3001/images/${id}`, {
+  //        method: "DELETE",
+  //        headers: {
+  //          "Content-Type": "application/json",
+  //          Accept: "application/json",
+  //        },
+  //      });
+  //    };
+  //    fetchData().catch(console.error);
+  //  }, []);
+
+  const removeCard = () => {
+     const fetchData = async () => {
+      const res = await fetch(`http://localhost:3001/images/${id}`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const req = res.json();
+    };
+    fetchData().catch(console.error);
+};
 
   return (
     <div className="card">
@@ -48,7 +62,7 @@ const Card = ({ card }) => {
         <p onClick={() => setLikesCount(parseInt(likesCount + 1))}>
           <FaHeart></FaHeart> {likesCount}
         </p>
-        <p onClick={() => setRemoveCard(!removeCard)}>
+        <p onClick={() => removeCard()}>
           <FaTrash></FaTrash>
         </p>
       </span>
