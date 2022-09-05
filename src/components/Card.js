@@ -1,7 +1,7 @@
 import { FaHeart, FaHeartBroken, FaTrashAlt } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
-const Card = ({ card }) => {
+const Card = ({ card, cards, setCards }) => {
   const { date, title, url, explanation, likes, id } = card;
   const [likesCount, setLikesCount] = useState(likes);
 
@@ -22,6 +22,12 @@ const Card = ({ card }) => {
     fetchData().catch(console.error);
   }, [likesCount]);
 
+   const fetchCards = async () => {
+     const res = await fetch("http://localhost:3001/images");
+     const req = await res.json();
+     setCards(req);
+   };
+
   const removeCard = () => {
     const fetchData = async () => {
       const res = await fetch(`http://localhost:3001/images/${id}`, {
@@ -33,6 +39,7 @@ const Card = ({ card }) => {
       const req = res.json();
     };
     fetchData().catch(console.error);
+    fetchCards();
   };
 
   return (

@@ -15,9 +15,15 @@ function App() {
   });
   const footerRef = useRef(null);
 
+  const fetchCards = async () => {
+    const res = await fetch("http://localhost:3001/images");
+    const req = await res.json();
+    setCards(req);
+  };
+
   useEffect(() => {
     generateRandomDate();
-  }, [cards]);
+  }, [imageDate]);
 
   const dateToday = () => {
     let date = new Date();
@@ -47,7 +53,6 @@ function App() {
   };
 
   const postImage = async () => {
-    console.log(imageDate);
     let object = await fetchImage();
     let res = await fetch(`http://localhost:3001/images`, {
       method: "POST",
@@ -69,6 +74,7 @@ function App() {
       block: "start",
       inline: "nearest",
     });
+    fetchCards()
   };
 
   const handleDateInput = (e) => {
@@ -123,7 +129,7 @@ function App() {
     };
 
     fetchData().catch(console.error);
-  }, [cards]);
+  }, []);
 
   return (
     <div className="body">
