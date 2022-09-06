@@ -13,12 +13,19 @@ function App() {
     day: "16",
     year: "1995",
   });
-  const footerRef = useRef(null);
+  const bottomRef = useRef(null);
 
   const fetchCards = async () => {
     const res = await fetch("http://localhost:3001/images");
     const req = await res.json();
     setCards(req);
+
+    bottomRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+      bottom: 0,
+    });
   };
 
   useEffect(() => {
@@ -69,11 +76,6 @@ function App() {
       }),
     });
     let req = await res.json();
-    footerRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-    });
     fetchCards()
   };
 
@@ -134,7 +136,7 @@ function App() {
   return (
     <div className="body">
       <br />
-      <header className="header" id="glow">
+      <header className="title" id="glow">
         NASA Astronomy Pictures of the Day
       </header>
       <br />
@@ -163,7 +165,7 @@ function App() {
       <div className="card-container">
         <CardContainer cards={cards} setCards={setCards} />
       </div>
-      <footer className="footer" ref={footerRef}></footer>
+      <footer className="footer" ref={bottomRef}></footer>
     </div>
   );
 }

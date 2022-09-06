@@ -1,36 +1,28 @@
 {
   "images": [
     {
-      "date": "2007-10-20",
-      "title": "The Milky Road",
-      "url": "https://apod.nasa.gov/apod/image/0710/MilkyWayRoad_landolfi.jpg",
-      "explanation": "Inspired during a visit to Fort Davis, Texas, home of McDonald Observatory and dark night skies, photographer Larry Landolfi created this tantalizing fantasy view. The composited image suggests the Milky Way is a heavenly extension of a deserted country road. Of course, the name for our galaxy, the Milky Way (in Latin, Via Lactea), does refer to its appearance as a milky band or path in the sky. In fact, the word galaxy itself derives from the Greek for milk. Visible on moonless nights from dark sky areas, though not so colorful as in this image, the glowing celestial band is due to the collective light of myriad stars along the plane of our galaxy, too faint to be distinguished individually. The diffuse starlight is cut by dark swaths of obscuring galactic dust clouds. At the beginning of the 17th century, Galileo turned his telescope on the Milky Way and announced it to be composed of innumerable stars.",
+      "date": "2021-12-04",
+      "title": "Iridescent by Moonlight",
+      "url": "https://apod.nasa.gov/apod/image/2112/IridescenzaLunaPleiadi1024.jpg",
+      "explanation": "In this snapshot from November 18, the Full Moon was not far from Earth's shadow. In skies over Sicily the brightest lunar phase was eclipsed by passing clouds though. The full moonlight was dimmed and momentarily diffracted by small but similar sized water droplets near the edges of the high thin clouds. The resulting iridescence shines with colors like a lunar corona. On that night, the Full Moon was also seen close to the Pleiades star cluster appearing at the lower left of the iridescent cloud bank. The stars of the Seven Sisters were soon to share the sky with a darker, reddened lunar disk.",
       "likes": "0",
       "id": 1
     },
     {
-      "date": "2010-12-19",
-      "title": "M82: Galaxy with a Supergalactic Wind",
-      "url": "https://apod.nasa.gov/apod/image/1012/m82_hst.jpg",
-      "explanation": "What's lighting up the Cigar Galaxy?  M82, as this irregular galaxy is also known, was stirred up by a recent pass near large spiral galaxy M81.  This doesn't fully explain the source of the red-glowing outwardly expanding gas, however.  Recent evidence indicates that this gas is being driven out by the combined emerging particle winds of many stars, together creating a galactic superwind..  The above photographic mosaic highlights a specific color of red light strongly emitted by ionized hydrogen gas, showing detailed filaments of this gas.  The filaments extend for over 10,000 light years. The 12-million light-year distant Cigar Galaxy is the brightest galaxy in the sky in infrared light, and can be seen in visible light with a small telescope towards the constellation of the Great Bear (Ursa Major).   Best Astronomy Images: APOD Editor to speak in Philadelphia on Jan 5 and New York City on Jan 7",
+      "date": "2008-03-01",
+      "title": "Mauna Kea Shadow Play",
+      "url": "https://apod.nasa.gov/apod/image/0803/MKeclipse_mukensnable_c800.jpg",
+      "explanation": "Just opposite the setting Sun, the already-eclipsed Moon rose over the Hawaiian Islands on February 20. A view near the 14,000 foot peak of volcanic Mauna Kea on the Big Island, a popular spot for astronomers, offered this remarkable play of shadows and sunlight. With snowy cinder cones in the foreground, the Moon lies within the shadow cast by the mountain -- a shadow extending across a lower cloud deck and on through Earth's dense atmosphere. As the lunar eclipse is drawing to a close, the curved shadow of the limb of planet Earth itself can also be traced across the Moon's surface, some 400,000 kilometers away.   digg_url = 'http://apod.nasa.gov/apod/ap080301.html'; digg_skin = 'compact';",
       "likes": "0",
       "id": 2
     },
     {
-      "date": "2006-08-28",
-      "title": "Eight Planets and New Solar System Designations",
-      "url": "https://apod.nasa.gov/apod/image/0608/planets_iau.jpg",
-      "explanation": "How many planets are in the Solar System?  This popular question now has a new formal answer according the International Astronomical Union (IAU): eight.  Last week, the IAU voted on a new definition for planet and Pluto did not make the cut.  Rather, Pluto was re-classified as a dwarf planet and is considered as a prototype for a new category of trans-Neptunian objects.  The eight planets now recognized by the IAU are: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.  Solar System objects now classified as dwarf planets are: Ceres, Pluto, and the currently unnamed 2003 UB313.  Planets, by the new IAU definition, must be in orbit around the sun, be nearly spherical, and must have cleared the neighborhood around their orbits.  The demotion of Pluto to dwarf planet status is a source of continuing dissent and controversy in the astronomical community.",
+      "date": "2020-02-03",
+      "title": "Solar Granules at Record High Resolution",
+      "url": "https://www.youtube.com/embed/CCzl0quTDHw?rel=0",
+      "explanation": "Why does the Sun's surface keep changing?  The help find out, the US National Science Foundation (NSF) has built the Daniel K. Inouye Solar Telescope in Hawaii, USA. The Inouye telescope has a larger mirror that enables the capturing of images of higher resolution, at a faster rate, and in more colors than ever before.  Featured are recently-released first-light images taken over 10 minutes and combined into a 5-second time-lapse video.  The video captures an area on the Sun roughly the size of our Earth, features granules roughly the size of a country, and resolves features as small as 30-kilometers across. Granule centers are bright due to the upwelling hot solar plasma, while granule edges are dim due to the cooled plasma falling back.  Some regions between granules edges are very bright as they are curious magnetic windows into a deep and hotter solar interior.  How the Sun's magnetic field keeps changing, channeling energy, and affecting the distant Earth, among many other topics, will be studied for years to come using data from the new Inouye telescope.    Astrophysicists: Browse 2,100+ codes in the Astrophysics Source Code Library",
       "likes": "0",
       "id": 3
-    },
-    {
-      "date": "1995-12-03",
-      "title": "An X-ray Hot Supernova in M81",
-      "url": "https://apod.nasa.gov/apod/image/m81sn_asca.gif",
-      "explanation": "In 1993, a star in the galaxy M81 exploded. Above is a picture of the hot material ejected by this supernova explosion. The picture was taken in X-rays with the Advanced Satellite for Cosmology and Astrophysics (ASCA). Since M81 is a relatively nearby galaxy, it can be examined in close detail by observatories on or near the Earth.   Since the Earth's atmosphere protects the surface from interstellar X-radiation, the above photo was taken from space.  Studying the nature and distribution of the X-rays has allowed astronomers to determine the composition and temperature of the expanding supernova gas.",
-      "likes": "0",
-      "id": 4
     }
   ]
 }
