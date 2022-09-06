@@ -1,6 +1,5 @@
 import "./App.css"
-import { useState, useEffect } from "react";
-import { useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import CardContainer from "./components/CardContainer";
 
 function App() {
@@ -8,6 +7,7 @@ function App() {
   let currYear;
   let key = "5x8jye659ANN9AhcRH6efnk0lMastohE8JxFLFV1";
   const [cards, setCards] = useState([]);
+  const [bool, setBool] = useState(false);
   const [imageDate, setImageDate] = useState({
     month: "06",
     day: "16",
@@ -19,18 +19,20 @@ function App() {
     const res = await fetch("http://localhost:3001/images");
     const req = await res.json();
     setCards(req);
-
-    bottomRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest",
-      bottom: 0,
-    });
+    setBool(!bool);
   };
 
   useEffect(() => {
+     bottomRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest"
+    });
+  }, [bool])
+
+  useEffect(() => {
     generateRandomDate();
-  }, [imageDate]);
+  }, [bool]);
 
   const dateToday = () => {
     let date = new Date();
@@ -137,7 +139,7 @@ function App() {
     <div className="body">
       <br />
       <header className="title" id="glow">
-        NASA Astronomy Pictures of the Day
+        Astronomy Pictures of the Day (NASA)
       </header>
       <br />
       <div className="date-input">

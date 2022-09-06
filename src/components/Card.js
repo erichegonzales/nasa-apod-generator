@@ -22,11 +22,11 @@ const Card = ({ card, cards, setCards }) => {
     fetchData().catch(console.error);
   }, [likesCount]);
 
-   const fetchCards = async () => {
-     const res = await fetch("http://localhost:3001/images");
-     const req = await res.json();
-     setCards(req);
-   };
+  const fetchCards = async () => {
+    const res = await fetch("http://localhost:3001/images");
+    const req = await res.json();
+    setCards(req);
+  };
 
   const removeCard = () => {
     const fetchData = async () => {
@@ -47,7 +47,7 @@ const Card = ({ card, cards, setCards }) => {
       <h1>{date}</h1>
       <h2>{title}</h2>
       <img src={url} alt={title} />
-      <br/>
+      <br />
       <p className="explanation">{explanation}</p>
       <div className="icons">
         <div className="fa-solid fa-trash-can" onClick={() => removeCard()}>
@@ -64,7 +64,10 @@ const Card = ({ card, cards, setCards }) => {
           onClick={() => setLikesCount(parseInt(likesCount + 1))}
         >
           <FaHeart className="heart-icon"></FaHeart>
-        <h3 className="likes"><span> </span>{likesCount}</h3>
+          <h3 className="likes">
+            <span> </span>
+            {likesCount}
+          </h3>
         </div>
       </div>
     </div>
