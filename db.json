@@ -1,84 +1,52 @@
 {
   "images": [
     {
-      "date": "2021-12-04",
-      "title": "Iridescent by Moonlight",
-      "url": "https://apod.nasa.gov/apod/image/2112/IridescenzaLunaPleiadi1024.jpg",
-      "explanation": "In this snapshot from November 18, the Full Moon was not far from Earth's shadow. In skies over Sicily the brightest lunar phase was eclipsed by passing clouds though. The full moonlight was dimmed and momentarily diffracted by small but similar sized water droplets near the edges of the high thin clouds. The resulting iridescence shines with colors like a lunar corona. On that night, the Full Moon was also seen close to the Pleiades star cluster appearing at the lower left of the iridescent cloud bank. The stars of the Seven Sisters were soon to share the sky with a darker, reddened lunar disk.",
-      "likes": 2,
+      "date": "1997-04-13",
+      "title": "Jets From SS433 \r\nCredit:",
+      "url": "https://apod.nasa.gov/apod/image/ss433_art.gif",
+      "explanation": "SS433\r is one of the most exotic star systems known. Its unremarkable\r name stems from its inclusion in a catalog of stars which emit\r radiation characteristic of atomic hydrogen.\r Its very remarkable behavior stems from a compact object, a black hole\r or neutron star,\r which has produced an accretion disk with jets. As illustrated\r in this artist's vision\r of the SS433 system\r based on observational data,\r a massive, hot star (left) is locked in a mutual orbit with a\r compact object. Material transfers from the massive star into\r an accretion disk surrounding the\r compact object blasting out two jets of ionized gas in opposite\r directions - at about 1/4 the speed of light!\r Radiation from the jet tilted toward the observer is blueshifted,\r while radiation from the jet tilted away is redshifted.\r The binary system itself completes an orbit in about 13 days while\r the jets precess (wobble like a top) with a period of about 164\r days. Are the jets from SS433 related to those from black holes at the centers of galaxies?\r",
+      "likes": "0",
       "id": 1
     },
     {
-      "date": "2006-12-16",
-      "title": "A Path To Orion",
-      "url": "https://apod.nasa.gov/apod/image/0612/DiscoveryOrion_aurigema_c720.jpg",
-      "explanation": "Last Saturday, the Space Shuttle Discovery lit up the night as it climbed into orbit above planet Earth. From Oak Hill, Florida, USA - about 30 miles north of the Kennedy Space Center - design engineer Andrew Arigema tracked the shuttle and recorded a four minute time exposure of the exhaust plume along Discovery's path against the background of the starry sky.  At the upper left, the end of the drifting plume is punctuated by Alnitak, Alnilam, and Mintaka in a vertical line, the belt stars of Orion. To the right of the belt stars, the pinkish jewel in Orion's sword is not a star at all, but the great Orion Nebula. Still farther to the right, at the foot of the hunter, lies Rigel, the brightest star in view. Rigel is a hot supergiant star some 700 light-years in the distance.",
+      "date": "2008-06-16",
+      "title": "Inside the Coma Cluster of Galaxies",
+      "url": "https://apod.nasa.gov/apod/image/0806/coma_hst.jpg",
+      "explanation": "Almost every object in the above photograph is a galaxy.  The Coma Cluster of Galaxies pictured above is one of the densest clusters known - it contains thousands of galaxies.  Each of these galaxies houses billions of stars - just as our own Milky Way Galaxy does.  Although nearby when compared to most other clusters, light from the Coma Cluster still takes hundreds of millions of years to reach us.  In fact, the Coma Cluster is so big it takes light millions of years just to go from one side to the other!  The above mosaic of images of a small portion of Coma was taken in unprecedented detail by the Hubble Space Telescope to investigate how galaxies in rich clusters form and evolve.  Most galaxies in Coma and other clusters are ellipticals, although some imaged here are clearly spirals.   The spiral galaxy on the upper left of the above image can also be found as one of the bluer galaxies on the upper left of this wider field image. In the background thousands of unrelated galaxies are visible far across the universe.   digg_url = 'http://apod.nasa.gov/apod/ap080616.html'; digg_skin = 'compact';   Note: APOD started thirteen years ago today.",
       "likes": "0",
       "id": 2
     },
     {
-      "date": "2004-01-09",
-      "title": "Sol 5 Postcard from Mars",
-      "url": "https://apod.nasa.gov/apod/image/0401/mars_spiritcolor_p5_c1.jpg",
-      "explanation": "A martian Sol - the average martian solar day - is about 39 minutes longer than Earth's familiar 24 hour day. Operating on martian time, the Spirit rover recently sent back this color postcard image, recorded on Sol 5 of its stay on the martian surface. This cropped version of the full, high-resolution mosaic looks north across Gusev crater floor. The smooth-looking, 9 meter wide circular feature dubbed Sleepy Hollow lies at the center of the scene. Within it are round dark markings which may have been left by the lander swaddled in airbags as it bounced across the martian surface. Other examples of disturbances, likely made by the lander's retracting airbags, can be seen in the foreground just beyond Spirit's solar cell covered deck.",
-      "likes": "0",
-      "id": 3
-    },
-    {
-      "date": "1997-03-03",
-      "title": "Pioneer 10: The First 6 Billion Miles\nIllustration Credit:",
-      "url": "https://apod.nasa.gov/apod/image/9703/pioneer10_art.jpg",
-      "explanation": "Q: What was made by humans and is 6 billion miles away? A: Pioneer 10 - and yesterday was the 25th anniversary of its launch. More than 9 light hours distant, Pioneer 10 is presently about twice as far from the Sun as Pluto, bound for interstellar space at 28,000 miles per hour. The distinction of being the first human artifact to venture beyond the Solar System is just one in a long list of firsts for this spacefaring ambassador, including; the first spacecraft to travel through the asteroid belt and explore the outer Solar System, the first spacecraft to visit Jupiter, the first to use a planet's gravity to change its course and to reach solar-system-escape velocity, and the first spacecraft to pass beyond the known planets. Pioneer 10's mission is nearing an end - now exploring the distant reaches of the heliosphere it will soon run out of sufficient electrical power to operate science instruments. However, the 570 lb. spacecraft will continue to coast and in 30,000 years or so it will pass within about 3 light years of a nearby star. The star itself, a faint red dwarf known as Ross 248, is just over 10 light years distant in the constellation of Taurus.",
+      "date": "2009-12-06",
+      "title": "The Magnificent Tail of Comet McNaught",
+      "url": "https://apod.nasa.gov/apod/image/0912/comet_mcnaught.jpg",
+      "explanation": "Comet McNaught, the Great Comet of 2007, was the brightest comet of the last 40 years.  Its spectacular tail spread across the sky and was breathtaking to behold from dark locations for many Southern Hemisphere observers.  The head of the comet remained quite bright and was easily visible to even city observers without any optical aide.  Part of the spectacular tail was visible just above the horizon after sunset for many northern observers as well.  Comet C/2006 P1 (McNaught), which reached an estimated peak brightness of magnitude -6 (minus six), was caught by the comet's discoverer in the above image soon after sunset in 2007 January from Siding Spring Observatory in Australia. The robotic Ulysses spacecraft fortuitously flew through Comet McNaught's tail and found, unexpectedly, that the speed of the solar wind dropped significantly.   digg_url = 'http://apod.nasa.gov/apod/ap091206.html'; digg_skin = 'compact';",
       "likes": "0",
       "id": 4
     },
     {
-      "date": "2000-09-01",
-      "title": "SOHO Sungrazer",
-      "url": "https://apod.nasa.gov/apod/image/0009/sohocomet_20000429_2154.jpg",
-      "explanation": "SOHO, the space-based SOlar and Heliospheric Observatory, has become by far the reigning champion facility for discovering comets, its total having recently reached 200. As might be expected of a solar observatory, most of the SOHO discovered comets are sungrazers, destined to dive within a mere 50 thousand kilometers or so of the solar photosphere. At that range the intense heat and gravitational forces make it unlikely these primitive chunks of ice and dust will survive. Based on their similar orbits, as first worked out by 19th century German astronomer Heinrich Kreutz, all sungrazers are believed to originate from a single large parent comet which broke up during a perihelion passage perhaps 2,000 years ago. Over time, pieces have continued to split off producing a family of smaller comets which seem to travel in the same orbit. These frames from SOHO's coronograph were taken two hours apart on April 29 of this year. They show a sungrazer (SOHO comet discovery number 111) with a long, bright tail headed toward its fiery encounter. The sun itself is hidden behind the coronograph's occulting disk at each frame's upper right.",
+      "date": "2019-10-05",
+      "title": "Jupiter and the Moons",
+      "url": "https://apod.nasa.gov/apod/image/1910/moonjupiter100319derekdemeter800.jpg",
+      "explanation": "After sunset on October 3, some of the Solar System's largest moons stood low along the western horizon with the largest planet. Just after nightfall, a pairing of the Moon approaching first quarter phase and Jupiter was captured in this telephoto field of view. A blend of short and long exposures, it reveals the familiar face of our fair planet's own large natural satellite in stark sunlight and faint earthshine. At lower right are the ruling gas giant and its four Galilean moons. Left to right, the tiny pinpricks of light are Ganymede, [Jupiter], Io, Europa, and Callisto. Our own natural satellite appears to loom large because it's close, but Ganymede, Io, and Callisto are actually larger than Earth's Moon. Water world Europa is only slightly smaller. Of the Solar System's six largest planetary satellites, only Saturn's moon Titan, is missing from this scene. But be sure to check for large moons in your sky tonight.   Tonight: International Observe the Moon Night  Submitted to APOD: The Moon and Jupiter with its Satellites",
       "likes": "0",
       "id": 5
     },
     {
-      "date": "1998-11-02",
-      "title": "PG 1115+080 A Ghost of Lensing Past",
-      "url": "https://apod.nasa.gov/apod/image/9811/pg1115_hst.jpg",
-      "explanation": "In this tangle of quasars and galaxies lies a clue to the expansion rate of the universe.  A diffuse glow evident in the picture on the left reveals a normal elliptical galaxy.  Directly behind this galaxy lies a normal quasar. Because the quasar is directly behind the galaxy, however, the gravity of the galaxy deflects quasar light like a lens, creating four bright images of the same distant quasar.  When these images are all digitally subtracted, a distorted image of the background galaxy that hosts the quasar appears - here shown on the right in ghostly white. Each quasar image traces how the quasar looked at different times in the past, with the time between images influenced by the expansion rate of the universe itself.  Assuming dark matter in the elliptical lens galaxy traces the visible matter, this expansion rate can be characterized by a Hubble constant of Ho near 65 km/sec/Mpc, a value close to that determined by other methods.  Analysis of this image by itself sheds little light on whether the global geometry of the universe is affected by a cosmological constant.",
+      "date": "2012-07-21",
+      "title": "The Eagle Rises",
+      "url": "https://apod.nasa.gov/apod/image/1207/AS11JK44-6633-34_c800.jpg",
+      "explanation": "Get out your red/blue glasses and check out this remarkable stereo view from lunar orbit. Created from two photographs (AS11-44-6633, AS11-44-6634) taken by astronaut Michael Collins during the 1969 Apollo 11 mission, the 3D anaglyph features the lunar module ascent stage, dubbed The Eagle, as it rises to meet the command module in lunar orbit on July 21. Aboard the ascent stage are Neil Armstrong and Buzz Aldrin, the first to walk on the Moon. The smooth, dark area on the lunar surface is Mare Smythii located just below the equator on the extreme eastern edge of the Moon's near side.  Poised beyond the lunar horizon, is our fair planet Earth.",
       "likes": "0",
       "id": 6
     },
     {
-      "date": "1997-03-21",
-      "title": "Io's Surface: Under Construction\r\nCredit:",
-      "url": "https://apod.nasa.gov/apod/image/9703/io970321_gal.jpg",
-      "explanation": "Like the downtown area of your favorite city, the roads you drive to work on, and any self-respecting Web site ... Io's surface is constantly under construction. This moon of Jupiter holds the distinction of being the Solar System's most volcanically active body -- its bizarre looking surface continuously formed and reformed by lava flows. Generated using 1996 data from NASA's Galileo spacecraft, this highest resolution composite image of Io is centered on the side of Io that always faces away from Jupiter. It has been enhanced to emphasize Io's surface brightness and color variations, revealing features as small as 1.5 miles across. The notable absence of impact craters suggests that the entire surface is covered with new volcanic deposits much more rapidly than craters are created. What drives this volcanic powerhouse? A likely energy source is the changing gravitational tides caused by Jupiter and the other Galilean moons as Io orbits the massive gas giant planet. Heating Io's interior, the pumping tides could generate the sulfurous volcanic activity.",
+      "date": "1997-08-07",
+      "title": "Jupiter's Ring Halo",
+      "url": "https://apod.nasa.gov/apod/image/9708/jupringhalo_gal.jpg",
+      "explanation": "Why do small particles hover around Jupiter's rings?  These particles form a previously unknown ring halo, recently discovered by the robot spacecraft Galileo currently orbiting Jupiter.  Galileo obtained this image when on the far side of Jupiter - from this orientation scattered sunlight makes the halo ring visible.  The amount of scattering indicates that halo particles are very small - perhaps 100 times smaller than the width of a human hair.  Particles this small are believed to survive only for years, and so must somehow be replenished to Jupiter's ancient ring system.  One possible explanation for this unusual halo is that electromagnetic fields around Jupiter gently push small charged particles out of the ring plane.  This false color image has been artificially stretched in the vertical direction to highlight the ring halo.",
       "likes": "0",
       "id": 7
-    },
-    {
-      "date": "2014-03-16",
-      "title": "The Antennae Galaxies in Collision",
-      "url": "https://apod.nasa.gov/apod/image/1403/antennae_coverta_960.jpg",
-      "explanation": "Two galaxies are squaring off in Corvus and here are the latest pictures. When two galaxies collide, the stars that compose them usually do not. That's because galaxies are mostly empty space and, however bright, stars only take up only a small amount of that space.  During the slow, hundred million year collision, one galaxy can still rip the other apart gravitationally, and dust and gas common to both galaxies does collide.  In this clash of the titans, dark dust pillars mark massive molecular clouds are being compressed during the galactic encounter, causing the rapid birth of millions of stars, some of which are gravitationally bound together in massive star clusters.",
-      "likes": "0",
-      "id": 8
-    },
-    {
-      "date": "1996-02-13",
-      "title": "7,000 Stars And The Milky Way",
-      "url": "https://apod.nasa.gov/apod/image/milkyway_lund.gif",
-      "explanation": "This panorama view of the sky is really a drawing. It was made in the 1940s under the supervision of astronomer Knut Lundmark at the Lund Observatory in Sweden. To create the picture, draftsmen used a mathematical distortion to map the entire sky onto an oval shaped image with the plane of our Milky Way Galaxy along the center and the north galactic pole at the top. 7,000 individual stars are shown as white dots, size indicating brightness. The \"Milky Way\" clouds, actually the combined light of dim, unresolved stars in the densely populated galactic plane, are accurately painted on, interrupted by dramatic dark dust lanes. The overall effect is photographic in quality and represents the visible sky. Can you identify any familiar landmarks or constellations? For starters, Orion is at the right edge of the picture, just below the galactic plane and the Large and Small Magellanic Clouds are visible as fuzzy patches in the lower right quadrant.",
-      "likes": "0",
-      "id": 9
-    },
-    {
-      "date": "2022-09-01",
-      "title": "The Tulip and Cygnus X-1",
-      "url": "https://apod.nasa.gov/apod/image/2209/TulipCygX-1_1024.jpg",
-      "explanation": "Framing a bright emission region, this telescopic view looks out along the plane of our Milky Way Galaxy toward the nebula rich constellation Cygnus the Swan. Popularly called the Tulip Nebula, the reddish glowing cloud of interstellar gas and dust is also found in the 1959 catalog by astronomer Stewart Sharpless as Sh2-101. Nearly 70 light-years across, the complex and beautiful Tulip Nebula blossoms about 8,000 light-years away. Ultraviolet radiation from young energetic stars at the edge of the Cygnus OB3 association, including O star HDE 227018, ionizes the atoms and powers the emission from the Tulip Nebula. Also in the field of view is microquasar Cygnus X-1, one of the strongest X-ray sources in planet Earth's sky. Blasted by powerful jets from a lurking black hole its fainter bluish curved shock front is only just visible though, beyond the cosmic Tulip's petals near the right side of the frame.   Back to School? Learn Science with NASA",
-      "likes": "0",
-      "id": 10
     }
   ]
 }

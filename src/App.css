@@ -9,11 +9,12 @@
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url('https://codemyui.com/wp-content/uploads/2019/06/Shooting-Star-Background-in-Pure-CSS-1.gif');
-    background-size: contain;
-    overflow: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-size: 200vh;
     padding: 0;
     margin: 0;
-    height: cover;
 }
 
 .or {

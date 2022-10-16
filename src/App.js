@@ -139,7 +139,7 @@ function App() {
     <div className="body">
       <br />
       <header className="title" id="glow">
-        Astronomy Pictures of the Day (NASA)
+        Astronomy Pictures of the Day
       </header>
       <br />
       <div className="date-input">
